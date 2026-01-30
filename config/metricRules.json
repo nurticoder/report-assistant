@@ -1,0 +1,7 @@
+﻿{
+  "defaults": { "min": 0, "max": 1000000, "allowNegative": false },
+  "overrides": {
+    "Previous Month Leftover": { "min": 0, "max": 1000000, "allowNegative": false }
+  }
+}
+

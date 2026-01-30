@@ -1,0 +1,9 @@
+﻿[
+  {
+    "sourceMetric": "Previous Month Leftover",
+    "targetMetric": "In Production",
+    "operation": "add",
+    "description": "Carry over previous month leftover into In Production."
+  }
+]
+

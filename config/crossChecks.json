@@ -1,0 +1,8 @@
+﻿[
+  {
+    "total": "Total Cases",
+    "components": ["In Production", "Closed Cases"],
+    "reason": "Total Cases should equal In Production + Closed Cases"
+  }
+]
+

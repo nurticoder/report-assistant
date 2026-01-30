@@ -1,0 +1,35 @@
+{
+  "name": "report-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate-fixtures": "node scripts/generate-fixtures.mjs",
+    "validate-and-generate": "node scripts/validate-and-generate.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "exceljs": "^4.4.0",
+    "fast-xml-parser": "^4.4.0",
+    "jszip": "^3.10.1",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.30",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.9.3",
+    "vitest": "^2.0.5"
+  }
+}

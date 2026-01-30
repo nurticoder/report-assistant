@@ -1,0 +1,37 @@
+{
+  "Total Cases": {
+    "patterns": [
+      { "regex": "Total\\s+cases\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Всего\\s+дел\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Жалпы\\s+иштер\\s*[:：]\\s*(\\d+)" }
+    ]
+  },
+  "In Production": {
+    "patterns": [
+      { "regex": "In\\s+production\\s*[:：]\\s*(\\d+)" },
+      { "regex": "В\\s+производстве\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Өндүрүштө\\s*[:：]\\s*(\\d+)" }
+    ]
+  },
+  "Closed Cases": {
+    "patterns": [
+      { "regex": "Closed\\s+cases\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Закрыто\\s+дел\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Жабылган\\s+иштер\\s*[:：]\\s*(\\d+)" }
+    ]
+  },
+  "New Cases": {
+    "patterns": [
+      { "regex": "New\\s+cases\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Новые\\s+дела\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Жаңы\\s+иштер\\s*[:：]\\s*(\\d+)" }
+    ]
+  },
+  "Previous Month Leftover": {
+    "patterns": [
+      { "regex": "Previous\\s+month\\s+leftover\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Остаток\\s+прошлого\\s+месяца\\s*[:：]\\s*(\\d+)" },
+      { "regex": "Өткөн\\s+айдан\\s+калдык\\s*[:：]\\s*(\\d+)" }
+    ]
+  }
+}

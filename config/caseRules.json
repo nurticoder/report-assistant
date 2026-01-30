@@ -1,0 +1,6 @@
+﻿{
+  "caseCountMetric": "Total Cases",
+  "caseIdField": "caseId",
+  "duplicatePolicy": "fail"
+}
+

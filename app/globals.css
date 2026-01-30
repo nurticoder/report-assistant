@@ -1,0 +1,31 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paper text-ink antialiased;
+  font-family: theme('fontFamily.body');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glow {
+  background: radial-gradient(circle at top, rgba(208, 122, 45, 0.18), transparent 60%);
+}
+
+.card {
+  @apply rounded-2xl border border-ink/10 bg-white/80 shadow-sm backdrop-blur;
+}
+
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium;
+}
+

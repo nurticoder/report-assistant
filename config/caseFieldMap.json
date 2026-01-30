@@ -1,0 +1,17 @@
+﻿{
+  "section": "Case Table",
+  "headerMap": {
+    "KЖБР": "caseId",
+    "Case ID": "caseId",
+    "Рег. №": "caseId",
+    "Applicant": "applicant",
+    "Заявитель": "applicant",
+    "Тема": "topic",
+    "Topic": "topic",
+    "Date": "date",
+    "Дата": "date",
+    "Status": "status",
+    "Статус": "status"
+  }
+}
+

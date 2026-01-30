@@ -1,0 +1,18 @@
+{
+  "Total Cases": {
+    "sheet": "Template",
+    "cell": "B2"
+  },
+  "In Production": {
+    "sheet": "Template",
+    "cell": "B3"
+  },
+  "Closed Cases": {
+    "sheet": "Template",
+    "cell": "B4"
+  },
+  "New Cases": {
+    "sheet": "Template",
+    "cell": "B5"
+  }
+}
